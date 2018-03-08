@@ -1,0 +1,15 @@
+.background    { background: linear-gradient(to bottom right, #427daf, #403b5e);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #151619; }
+.wall {
+  background: linear-gradient(#f9feff, #f7eee1);
+  border-radius: 50%;
+}
+.floater {
+  background: url("https://preview.ibb.co/iCO3nn/hi_bird.gif") no-repeat center center;
+}
+.game {
+  position: relative;
+}
