@@ -8,8 +8,18 @@
   border-radius: 50%;
 }
 .floater {
+  background: url("https://image.ibb.co/juTXZc/cloud.png") no-repeat center;
+  overflow: visible;
+}
+
+.actor  { position: absolute;  }
+.player {
   background: url("https://preview.ibb.co/iCO3nn/hi_bird.gif") no-repeat center center;
 }
+
 .game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
   position: relative;
 }
