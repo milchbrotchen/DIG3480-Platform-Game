@@ -1,6 +1,9 @@
-.background    { background: linear-gradient(to bottom right, #427daf, #403b5e);
-                 table-layout: fixed;
-                 border-spacing: 0;   }
+.background { 
+  background: linear-gradient(to bottom right, #427daf, #403b5e);
+  table-layout: fixed;
+  border-spacing: 0;   
+}
+
 .background td { padding: 0;          }
 .lava          { background: #151619; }
 .wall {
