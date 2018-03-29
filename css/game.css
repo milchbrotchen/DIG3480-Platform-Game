@@ -1,25 +1,28 @@
-.background { 
-  background: linear-gradient(to bottom right, #427daf, #403b5e);
-  table-layout: fixed;
-  border-spacing: 0;   
-}
-
+.background    { background: linear-gradient(to bottom right, #427daf, #403b5e);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: #151619; }
+.lava          { background: url("https://image.ibb.co/kyinX7/lava.png") center;
+                background-size: auto;}
 .wall {
   background: linear-gradient(#f9feff, #f7eee1);
   border-radius: 50%;
 }
 .floater {
   background: url("https://image.ibb.co/juTXZc/cloud.png") no-repeat center;
-  overflow: visible;
 }
 
 .actor  { position: absolute;  }
 .player {
-  background: url("https://preview.ibb.co/iCO3nn/hi_bird.gif") no-repeat center center;
+  background: url("https://image.ibb.co/c3Yhzn/hi_bird.png") no-repeat center center;
+  background-size: auto;
 }
-
+.coin {
+  background: url("https://image.ibb.co/mxFy5S/peach.png");
+}
+.ghost {
+  background: url("https://image.ibb.co/gvmPC7/ghost.png") no-repeat center center;
+}
 .game {
   overflow: hidden;
   max-width: 600px;
